@@ -147,7 +147,7 @@ const go = () => {
       emit('FormThanks','PhoneThanks')
     }, 1000);
    // window.location.href = `tel:${info.phone.replace("-", "")}`;
-    window.open(info.phone);
+    window.open("https://hw-dm.com/dndl_tel_edm");
   } else if (modalType.value == 'messenger') {
     window.open(info.fbMessage);
   } else if (modalType.value == 'fb') {

@@ -111,7 +111,7 @@ const send = () => {
   presend.append("utm_medium", utmMedium)
   presend.append("utm_content", utmContent)
   presend.append("utm_campaign", utmCampaign)
-  presend.append("case_code", "hm03")
+  presend.append("case_code", "f0c632c9-2185-4148-9801-e6322e173e5c")
   presend.append("message", formData.msg)
   console.log(Object.fromEntries(presend.entries()))
   if (unfill.length > 0) {
